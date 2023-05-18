@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: #3f444f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #a84e80;
+    margin: 0 1rem;
+}
+
+nav s {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul .home {
+    color: #a84e80;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1rem;
+    color: white;
+}
+
+main {
+    position: relative;
+}
+
+main img {
+    width: 100%;
+    max-height: 360px;
+}
+
+main h1 {
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    color: white;
+    font-size: 50px;
+}
+
+main p {
+    position: absolute;
+    left: 27%;
+    top: 60%;
+    color: white;
+    font-size: 20px;
+}
+
+.subscribe {
+    height: 5rem;
+    background-color: #35424a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    color: white;
+    position: relative;
+    bottom: 0.25rem;
+}
+
+.subscribe h1 {
+    font-size: 20px;
+}
+
+.subscribe .email {
+    color: #a84e80;
+    height: 2rem;
+    width: 16rem;
+}
+
+.subscribe .button {
+    color: #a84e80;
+    height: 2rem;
+    width: 8rem;
+    background-color: #e7491d;
+    color: white;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 50px;
+}
+
+.img img {
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.img h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    height: 8rem;
+    background-color: #35424a;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+
+footer p {
+    color: aliceblue;
+    text-align: center;
+    padding: 2rem;
+    font-size: 14px;
+}
+
+footer img {
+    height: 2rem;
+    width: 11rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
